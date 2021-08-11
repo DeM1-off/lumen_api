@@ -24,10 +24,10 @@ post-> creaty new company for user
 
 ## Installation
 
-Just clone the project to anywhere in your computer. 
-Run ` composer install ` <br>
-and ` php artisan migrate `
-php artisam db:seed 
+- Just clone the project to anywhere in your computer. 
+-Run  composer install  <br>
+- php artisan migrate 
+- php artisam db:seed 
 
 Now you are done. 
 <br>
