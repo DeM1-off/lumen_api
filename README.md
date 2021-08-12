@@ -1,19 +1,32 @@
 # Lumen PHP Framework
-
+packages used-> 
+- flipbox/lumen-generator
+- guzzlehttp/guzzle
+- illuminate/mail
+- illuminate/notifications
+- tymon/jwt-auth
 ## Example Preview
 post-> create new user
 -  https://domain.com/api/user/register
 
-post-> login
+
+ controller AuthController.php, Model User 
+  seed UserSeed, Factory UserFactory
+- post-> login
 -  https://domain.com/api/user/sign-in
-post-> Send new password in email
+
+
+  controller PasswordController, Model User 
+- post-> Send new password in email
 - https://domain.com/api/user/recover-password
-post-> Reset new password
+- post-> Reset new password
 - https://domain.com/api/user/reset
 
-get->  company user
+controller CompanyController.php, Model Company 
+  seed CompanySeed, Factory CompanyFactory,CompanyResource
+- get->  company user
 - https://domain.com/api/user/companies
-post-> creaty new company for user
+- post-> creaty new company for user
 - https://domain.com/api/user/companies
 
 
